@@ -834,7 +834,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '621205010--   Phet Muengake
+  m_Text: '62120501028  Phet Muengake
 
     62120501031   Yosapat Panatyotin
 
@@ -1982,7 +1982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.040000916, y: 0.36700058}
+  m_AnchoredPosition: {x: -0.039993286, y: 0.3670044}
   m_SizeDelta: {x: -0.07992554, y: -0.7344971}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1157322561
@@ -2666,7 +2666,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.00019073486}
+  m_AnchoredPosition: {x: 0, y: -0.00019836426}
   m_SizeDelta: {x: -0.079956055, y: 1.2651443}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1288884563
@@ -3246,7 +3246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.59988403, y: -95.55}
+  m_AnchoredPosition: {x: 0.5998535, y: -95.54999}
   m_SizeDelta: {x: -698.15576, y: -407.44354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1482217186
@@ -5285,7 +5285,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43750003, y: 0.4}
   m_AnchorMax: {x: 0.565, y: 0.6001151}
-  m_AnchoredPosition: {x: -0.099998474, y: -0.010002136}
+  m_AnchoredPosition: {x: -0.1000061, y: -0.010009766}
   m_SizeDelta: {x: 2.2616272, y: 1.1028748}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2054622264
