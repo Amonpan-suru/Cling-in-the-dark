@@ -39,6 +39,16 @@ public class move : MonoBehaviour
 
             }
         }
+        if (Input.GetKey(KeyCode.W))
+        {
+
+            if (rotate != 0f)
+            {
+                transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+                rotate = 0;
+
+            }
+        }
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             speed = speed + 0.02f;
