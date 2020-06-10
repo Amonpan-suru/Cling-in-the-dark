@@ -9,22 +9,22 @@ public class CMove : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position += new Vector3(-speed, 0f, 0f);
+            transform.position += new Vector3(-speed*Time.deltaTime, 0f, 0f);
 
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position += new Vector3(speed, 0f, 0f);
+            transform.position += new Vector3(speed * Time.deltaTime, 0f, 0f);
 
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            speed = speed + 0.02f;
+            speed = speed + 2f;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            speed = speed - 0.02f;
+            speed = speed - 2f;
         }
     }
 }
