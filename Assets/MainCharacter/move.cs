@@ -7,7 +7,7 @@ using UnityEngine;
 public class move : MonoBehaviour
 {
 
-    float rotate = 0f;
+    public static float rotate = 0f;
 
     void Update()
     {
