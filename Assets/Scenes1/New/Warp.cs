@@ -12,23 +12,31 @@ public class Warp : MonoBehaviour
     void Start()
     {
         ID = 0;
+        
     }
-
+    
     void Update()
     {
+
         float dist = Vector3.Distance (transform.position, player.transform.position);
             if(dist < 1f)
         {
             if (Input.GetKeyDown(KeyCode.F) && ID == 1 )
             {
+                
                 player.transform.position = target.transform.position;
                 player1.transform.rotation = Quaternion.Euler(0f, 180, 0f);
+               
             }
             ID = 1;
+            
         }
         else
         {
             ID = 0;
         }
     }
+    
+
 }
+
