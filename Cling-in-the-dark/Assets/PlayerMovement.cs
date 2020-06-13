@@ -5,8 +5,16 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5.0f;
+    public bool Dead = false;
 
-    void Update()
+    private void Update()
+    {
+        if (Dead == false)
+        {
+            PlayerMovement1();
+        }
+    }
+    void PlayerMovement1()
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
@@ -24,5 +32,5 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position += Vector3.back * speed * Time.deltaTime;
         }
-    }
+    }  
 }
