@@ -5,11 +5,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5.0f;
-    public bool Dead = false;
 
     private void Update()
     {
-        if (Dead == false)
+        if (LightDecrease.getAlive)
         {
             PlayerMovement1();
         }

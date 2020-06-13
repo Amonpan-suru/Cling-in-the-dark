@@ -5,11 +5,10 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     public float speed = 5.0f;
-    public bool Dead = false;
 
     void Update()
     {
-        if( Dead == false )
+        if( LightDecrease.getAlive )
         {
             CameraMovement1();
         }

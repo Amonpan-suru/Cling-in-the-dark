@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +7,8 @@ public class LightDecrease : MonoBehaviour
 {
     public Light Light1;
 
-    private bool Dead = false;
+    private static bool Alive = true;
+    public static bool getAlive { get { return Alive; } }
 
     private void OnTriggerEnter( Collider collision )
     {
@@ -17,7 +19,7 @@ public class LightDecrease : MonoBehaviour
         
         if( Light1.intensity == 0.0f )
         {
-            Dead = true;
+            Alive = false;
         }
         
     }
