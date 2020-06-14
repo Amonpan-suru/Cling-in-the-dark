@@ -8,6 +8,7 @@ public class LightDecrease : MonoBehaviour
     public Light Light1;
 
     private static bool Alive = true;
+
     public static bool getAlive { get { return Alive; } }
 
     private void OnTriggerEnter( Collider collision )
