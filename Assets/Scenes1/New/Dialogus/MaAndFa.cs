@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogueManager : MonoBehaviour
+public class MaAndFa : MonoBehaviour
 {
     public Text nameText;
     public Text dialogueText;
@@ -35,13 +35,13 @@ public class DialogueManager : MonoBehaviour
         foreach (string sentence in dialogue.sentances)
         {
             sentences.Enqueue(sentence);
-            
+
         }
         DisplayNextSentences();
     }
     public void DisplayNextSentences()
     {
-        if(sentences.Count == 0)
+        if (sentences.Count == 0)
         {
             EndDialogue();
             return;
@@ -50,10 +50,10 @@ public class DialogueManager : MonoBehaviour
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(Typesentence(sentence));
-        
+
     }
 
-    IEnumerator Typesentence (string sentence)
+    IEnumerator Typesentence(string sentence)
     {
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
