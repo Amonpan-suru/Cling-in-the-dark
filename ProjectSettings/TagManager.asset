@@ -8,6 +8,8 @@ TagManager:
   - DarkHand
   - IllusionWall
   - CrystalChase
+  - Area1
+  - Area2
   layers:
   - Default
   - TransparentFX
