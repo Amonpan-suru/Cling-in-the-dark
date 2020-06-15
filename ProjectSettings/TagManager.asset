@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - SwitchCamera
+  - DarkHand
+  - IllusionWall
+  - CrystalChase
   layers:
   - Default
   - TransparentFX
