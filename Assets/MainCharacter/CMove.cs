@@ -7,6 +7,7 @@ public class CMove : MonoBehaviour
     [SerializeField] float speed;
     void Update()
     {
+       
         if (Input.GetKey(KeyCode.A))
         {
             transform.position += new Vector3(-speed*Time.deltaTime, 0f, 0f);
@@ -26,5 +27,8 @@ public class CMove : MonoBehaviour
         {
             speed = speed - 2f;
         }
+
+
+       
     }
 }
