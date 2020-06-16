@@ -10,7 +10,7 @@ public class CrystalChase : MonoBehaviour
     
     private void OnTriggerStay(Collider other)
     {
-        if(other.name == "Area2")
+        if(other.name == "ElseArea")
         {
             Crystal();
         }       
