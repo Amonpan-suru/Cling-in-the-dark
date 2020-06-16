@@ -24,7 +24,6 @@ public class LightDecrease : MonoBehaviour
         if ( Light1.intensity == 0.0f )
         {
             Alive = false;
-        }
-        
+        }       
     }
 }
