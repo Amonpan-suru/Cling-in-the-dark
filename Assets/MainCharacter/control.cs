@@ -13,22 +13,17 @@ public class control : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
-            anime.SetBool("WalkA", true);
+            anime.SetBool("Walk", true);
         }
-        if (Input.GetKeyUp(KeyCode.A))
+        else
         {
-            anime.SetBool("WalkA", false);
+            anime.SetBool("Walk", false);
         }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            anime.SetBool("WalkD", true);
-        }
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-            anime.SetBool("WalkD", false);
-        }
+       
+        
+        
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             anime.SetBool("Run", true);
