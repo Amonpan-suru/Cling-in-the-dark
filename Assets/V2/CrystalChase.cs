@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class CrystalChase : MonoBehaviour
 {
-    // ถ้า Player เข้าพื้นที่ Area2 ให้ DarkCrystal Chase เคลื่อนที่ด้วยความเร็ว 4.0f
+    // ถ้า Player เข้าพื้นที่ Area2 ให้ใช้ Crystal()
 
     public float speed = 4.0f;
-
-    private void OnTriggerStay(Collider Player)
+    
+    private void OnTriggerStay(Collider other)
     {
-        if(Player.name == "Area2")
+        if(other.name == "Area2")
         {
             Crystal();
         }       
