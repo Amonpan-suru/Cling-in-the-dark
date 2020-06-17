@@ -6,9 +6,17 @@ using UnityEngine.UIElements;
 
 public class buttonlink : MonoBehaviour
 {
+    [SerializeField] string scenename;
 public void playgame()
+    { 
+        Example();
+        SceneManager.LoadScene(scenename);
+    }
+    IEnumerator Example()
     {
-        SceneManager.LoadScene("Stand");
+        
+        yield return new WaitForSecondsRealtime(3);
+        
     }
 
 public void Quitgame(){
