@@ -21,7 +21,7 @@ public class WarpNightmare : MonoBehaviour
         float Distance = Vector3.Distance(transform.position, Player.transform.position);
         test = Distance;
 
-        if (Distance < 6.8f)
+        if (Distance < 1.0f)
         {
             if (Input.GetKeyDown(KeyCode.F) && ID == 1)
             {

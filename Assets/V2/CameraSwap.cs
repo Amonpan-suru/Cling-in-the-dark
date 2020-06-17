@@ -20,6 +20,7 @@ public class CameraSwap : MonoBehaviour
             Cam1.SetActive(false);
             Cam2.SetActive(true);
         }
+        Debug.Log("Hello");
     }
 
 }
