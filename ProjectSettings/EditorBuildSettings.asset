@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Stand.unity
-    guid: f38c632cba5a1414a8cb2453203102f0
+    path: Assets/Scenes/Escape_1.unity
+    guid: 8e5efe8f8da724c44867039b60a8f2a3
   - enabled: 1
-    path: Assets/Scenes/School.unity
-    guid: e10224c9a7c045341b843b0f3e62016d
+    path: Assets/Scenes/Escape_2.unity
+    guid: ca42dd4cc65108b44a2e7c7501057ebf
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: d117a7f875ef94de58e62c58ea4b0909
+    path: Assets/Scenes/Escape_3.unity
+    guid: bd70cba22cbf14a46a95ebdbe7f83f23
+  - enabled: 1
+    path: Assets/Scenes/Escape_4.unity
+    guid: e659e496fc02d20429ebc28f87bec4c0
   m_configObjects: {}

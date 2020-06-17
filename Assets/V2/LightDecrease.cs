@@ -25,7 +25,8 @@ public class LightDecrease : MonoBehaviour
         if ( Light1.intensity == 0.0f )
         {
             Alive = false;
-            Reload();
+            //Reload();
+            Invoke("Reload",2.0f);
         }       
     }
     public void Reload()

@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class EscapeToFloor : MonoBehaviour
 {
-    private void OnCollisionEnter(Collider other)
-    {      
-        if(other.tag == "Player")
-            {
-                SceneManager.LoadScene("NightmareFloor");
-            }      
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Invoke("Load",1.0f);
+        }
+    }
+    void Load()
+    {
+        SceneManager.LoadScene("Escape_2");
     }
 }
