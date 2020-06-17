@@ -25,6 +25,22 @@ public class FloorMarker : MonoBehaviour
         {
             floormarker.text = "upperfloor";
         }
+        if (other.name == "F3-4")
+        {
+            floormarker.text = "f3-4";
+        }
+        if (other.name == "F2-6")
+        {
+            floormarker.text = "f2-6";
+        }
+        if (other.name == "F2-3")
+        {
+            floormarker.text = "f2-3";
+        }
+        if (other.name == "F1-5")
+        {
+            floormarker.text = "f1-5";
+        }
         if (other.name == "F3-1")
         {
             floormarker.text = "f3-1";

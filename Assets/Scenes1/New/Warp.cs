@@ -26,7 +26,7 @@ public class Warp : MonoBehaviour
                 
                 player.transform.position = target.transform.position;
                 player1.transform.rotation = Quaternion.Euler(0f, 180, 0f);
-                move.rotate = 0f;
+                move.rotate = 1f;
 
             }
             ID = 1;
