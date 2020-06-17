@@ -14,6 +14,6 @@ public class EscapeToFloor : MonoBehaviour
     }
     void Load()
     {
-        SceneManager.LoadScene("Escape_2");
+        SceneManager.LoadScene("Escape_4");
     }
 }
