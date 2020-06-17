@@ -1,25 +1,26 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraSwap : MonoBehaviour
 {
-    public GameObject Camera1;
-    public GameObject Camera2;
+    public GameObject Cam1;
+    public GameObject Cam2;
 
     private void OnTriggerStay(Collider other)
     {
-        if(other.name == "EscapeArea1")
+        if (other.name == "Area1")
         {
-            Camera1.SetActive(true);
-            Camera2.SetActive(false);
-        
+            Cam1.SetActive(true);
+            Cam2.SetActive(false);
         }
-        if(other.name == "EscapeArea2")
+        if (other.name == "Area2")
         {
-            Camera1.SetActive(false);
-            Camera2.SetActive(true);
-        }   
-        Debug.Log("hi");
+            Cam1.SetActive(false);
+            Cam2.SetActive(true);
+        }
     }
+
 }
+
