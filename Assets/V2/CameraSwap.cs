@@ -8,11 +8,6 @@ public class CameraSwap : MonoBehaviour
     public GameObject Cam1;
     public GameObject Cam2;
 
-    void Update()
-    {
-
-    }
-
     private void OnTriggerStay(Collider other)
     {
         if (other.name == "Area1")
