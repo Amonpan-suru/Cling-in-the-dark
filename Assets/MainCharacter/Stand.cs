@@ -14,7 +14,7 @@ public class Stand : MonoBehaviour
 
         if (Timer > 10f)
         {
-            SceneManager.LoadScene("School");
+            SceneManager.LoadScene("Cut1");
         }
     }
 }

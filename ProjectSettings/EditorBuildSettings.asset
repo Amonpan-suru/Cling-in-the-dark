@@ -18,8 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/chapter1/Stand.unity
     guid: 7e76c7e9b07e1564cb4e75c46a59f732
   - enabled: 1
+    path: Assets/Scenes/chapter1/Cut1.unity
+    guid: 4b434e7b5b9ef400a84d3aa5c0f000a0
+  - enabled: 1
     path: Assets/Scenes/chapter1/School.unity
     guid: 93767d60ddaf4b3428dd6b8f4a8fdd23
+  - enabled: 1
+    path: Assets/Scenes/chapter1/Cut2.unity
+    guid: a376ffa8488634e23927366166f7cde5
   - enabled: 1
     path: Assets/Scenes/chapter3/Escape_1.unity
     guid: 8e5efe8f8da724c44867039b60a8f2a3
