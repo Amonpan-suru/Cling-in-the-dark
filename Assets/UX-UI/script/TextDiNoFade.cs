@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Playables;
 
-public class TextDialog : MonoBehaviour
+public class TextDiNoFade : MonoBehaviour
 {
     public GameObject me;
     public GameObject bgme;
@@ -17,9 +17,7 @@ public class TextDialog : MonoBehaviour
     private int index;
     public float typespeed;
     private AudioSource SFXclick;
-    public Animator fade;
     public GameObject dialognext;
-    public GameObject timeline;
     public GameObject bgtext;
 
 
@@ -48,13 +46,12 @@ public class TextDialog : MonoBehaviour
 
     private void Update()
     {
-        PlayableDirector pd = timeline.GetComponent<PlayableDirector>();
 
-        if (Dialog.text == sentence[index]) {
+        if (Dialog.text == sentence[index])
+        {
             if (Input.GetKeyDown(KeyCode.Space))
-            {
-
-                SFXclick.Play();
+        {
+            SFXclick.Play();
                 if (index < sentence.Length - 1)
                 {
                     index++;
@@ -64,10 +61,9 @@ public class TextDialog : MonoBehaviour
                 else
                 {
                     Dialog.text = "";
-                    fade.SetTrigger("fade");
+
                     dialognext.gameObject.SetActive(true);
                     Destroy(gameObject);
-                    pd.Play();
 
                 }
             }
