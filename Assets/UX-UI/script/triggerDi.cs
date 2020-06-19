@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class triggerDi : MonoBehaviour
 {
-    public GameObject player;
+    
     public Dialogue dialogue;
     public GameObject me;
     public GameObject other;
@@ -15,7 +15,8 @@ public class triggerDi : MonoBehaviour
         me.gameObject.SetActive(true);
         other.gameObject.SetActive(false);
         other2.gameObject.SetActive(false);
+
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-        Destroy(gameObject);
+        
     }
 }
