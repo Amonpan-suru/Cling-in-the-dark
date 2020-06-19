@@ -7,12 +7,15 @@ public class warpcutscene : MonoBehaviour
 {
     public GameObject player;
     public GameObject player1;
+    public GameObject fadein;
     public string Scene;
 
     
-    void Start()
-    {
 
+    IEnumerator ExampleCoroutine()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(Scene);
     }
 
     void Update()
@@ -23,8 +26,9 @@ public class warpcutscene : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
-
-                SceneManager.LoadScene(Scene);
+                fadein.gameObject.SetActive(true);
+                StartCoroutine(ExampleCoroutine());
+                
 
             }
            
