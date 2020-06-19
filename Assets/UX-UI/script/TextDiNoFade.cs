@@ -15,7 +15,6 @@ public class TextDiNoFade : MonoBehaviour
     public Text Dialog;
     public string[] sentence;
     private int index;
-    public float typespeed;
     private AudioSource SFXclick;
     public GameObject dialognext;
     public GameObject bgtext;
@@ -39,7 +38,7 @@ public class TextDiNoFade : MonoBehaviour
         foreach (char letter in sentence[index].ToCharArray())
         {
             Dialog.text += letter;
-            yield return new WaitForSeconds(typespeed);
+            yield return new WaitForSeconds(0.03f);
 
         }
     }
