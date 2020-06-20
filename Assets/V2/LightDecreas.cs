@@ -7,8 +7,9 @@ using UnityEngine.SceneManagement;
 public class LightDecreas : MonoBehaviour
 {
     public Light Light1;
+    public string Scene;
 
-    private static bool Alive = true;
+    public static bool Alive = true;
 
     public static bool getAlive { get { return Alive; } }
 
@@ -31,10 +32,9 @@ public class LightDecreas : MonoBehaviour
     }
     public void Reload()
     {
-        int scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(scene, LoadSceneMode.Single);
+        Alive = true;
+        SceneManager.LoadScene(Scene);
         Time.timeScale = 1;
 
-        Alive = true;
     }
 }

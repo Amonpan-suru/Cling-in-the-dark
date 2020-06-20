@@ -119,4 +119,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/chapter4/GoodEnd2.unity
     guid: 8f8108862dbbe4e00a642b4da9f335e0
+  - enabled: 1
+    path: Assets/Scenes/chapter4/Loop.unity
+    guid: 01325e680e03542abac6e7702d81c88f
+  - enabled: 1
+    path: Assets/Scenes/chapter4/Loop 1.unity
+    guid: 240f242a4790243ddbdad4f12cd7f1c0
   m_configObjects: {}
