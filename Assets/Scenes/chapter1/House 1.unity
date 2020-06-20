@@ -2980,6 +2980,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8800871751185198536, guid: debe164c2ec244eda9091838ccedf712,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5899658
+      objectReference: {fileID: 0}
     - target: {fileID: 8800871751533054194, guid: debe164c2ec244eda9091838ccedf712,
         type: 3}
       propertyPath: m_IsActive
@@ -3539,7 +3544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58cf16163f9243442b2f810a053418da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  me: {fileID: 541682652}
+  dialogue: {fileID: 541682652}
   timer: 0
 --- !u!1 &1926330912
 GameObject:

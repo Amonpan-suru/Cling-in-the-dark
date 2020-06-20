@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   director: {fileID: 941137670}
-  Scene: Cut4-1
+  Scene: Menu
 --- !u!1 &956768140
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,7 +640,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Chapter 3 : Clinging in the Dark'
+  m_Text: The End
 --- !u!222 &1240767472
 CanvasRenderer:
   m_ObjectHideFlags: 0

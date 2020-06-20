@@ -5,27 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: d117a7f875ef94de58e62c58ea4b0909
   - enabled: 1
     path: Assets/Scenes/chapter1/Chapter1.unity
     guid: 1a14229559b0b408ca8b89b1901c5704
   - enabled: 1
-    path: Assets/Scenes/chapter1/Stand.unity
-    guid: 7e76c7e9b07e1564cb4e75c46a59f732
-  - enabled: 1
     path: Assets/Scenes/chapter1/Cut1.unity
     guid: 4b434e7b5b9ef400a84d3aa5c0f000a0
   - enabled: 1
-    path: Assets/Scenes/chapter1/School.unity
-    guid: 93767d60ddaf4b3428dd6b8f4a8fdd23
-  - enabled: 1
     path: Assets/Scenes/chapter1/Cut2.unity
     guid: a376ffa8488634e23927366166f7cde5
-  - enabled: 1
-    path: Assets/Scenes/chapter1/House.unity
-    guid: f6f9cc1b095e142d7b15794ef5de56c4
   - enabled: 1
     path: Assets/Scenes/chapter1/Cut3.unity
     guid: eb5604db7994a43b18ab752d4d318608
@@ -33,47 +24,83 @@ EditorBuildSettings:
     path: Assets/Scenes/chapter1/House 1.unity
     guid: 1f4c7b9817e074b839a2b219aa239cc4
   - enabled: 1
-    path: Assets/Scenes/Chapter2/Chapter2.unity
-    guid: 7f686570f738a4a52ba9c2c6dfe36007
+    path: Assets/Scenes/chapter1/House.unity
+    guid: f6f9cc1b095e142d7b15794ef5de56c4
   - enabled: 1
-    path: Assets/Scenes/Chapter2/Stand 1.unity
-    guid: 4f86151a00da44786ae5393ddf09d28c
+    path: Assets/Scenes/chapter1/School 1.unity
+    guid: b97d3f1f9d29240bfaadc76586152275
   - enabled: 1
-    path: Assets/Scenes/Chapter2/Cut2-1.unity
-    guid: 8c3e2726d1f874e319677d43b16232b1
+    path: Assets/Scenes/chapter1/School.unity
+    guid: 93767d60ddaf4b3428dd6b8f4a8fdd23
+  - enabled: 1
+    path: Assets/Scenes/chapter1/Stand.unity
+    guid: 7e76c7e9b07e1564cb4e75c46a59f732
   - enabled: 1
     path: Assets/Scenes/Chapter2/1School.unity
     guid: fb718d62df695435d84f5f118a38cc45
   - enabled: 1
+    path: Assets/Scenes/Chapter2/Chapter2.unity
+    guid: 7f686570f738a4a52ba9c2c6dfe36007
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/Cut2-1.unity
+    guid: 8c3e2726d1f874e319677d43b16232b1
+  - enabled: 1
     path: Assets/Scenes/Chapter2/Cut2-2.unity
     guid: b261b1c59fbfd4ec3b1f1bbd09bac300
-  - enabled: 1
-    path: Assets/Scenes/Chapter2/SchoolBook.unity
-    guid: 38d61d2b0965440d497fed3772eb823e
   - enabled: 1
     path: Assets/Scenes/Chapter2/Cut2-3.unity
     guid: 94e96fce8d21a4ecf811e99ed053d0da
   - enabled: 1
-    path: Assets/Scenes/Chapter2/GoHome.unity
-    guid: 353c26332520e3d42b5d2dd4bdecc9d1
-  - enabled: 1
-    path: Assets/Scenes/Chapter2/House-ch2.unity
-    guid: 1bcdcca5169c24c4fbc9d8db577b97cb
-  - enabled: 1
     path: Assets/Scenes/Chapter2/Cuthome.unity
     guid: a809049a297be43e889ea39f57b63ed9
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/GoHome.unity
+    guid: 353c26332520e3d42b5d2dd4bdecc9d1
   - enabled: 1
     path: Assets/Scenes/Chapter2/House-ch2-2.unity
     guid: 368a211f31e3a4e4b8ab2df130914477
   - enabled: 1
+    path: Assets/Scenes/Chapter2/House-ch2.unity
+    guid: 1bcdcca5169c24c4fbc9d8db577b97cb
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/SchoolBook.unity
+    guid: 38d61d2b0965440d497fed3772eb823e
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/Stand 1.unity
+    guid: 4f86151a00da44786ae5393ddf09d28c
+  - enabled: 1
     path: Assets/Scenes/chapter3/Chapter3.unity
     guid: ea024797fca674e27a2ead5839de665e
+  - enabled: 1
+    path: Assets/Scenes/chapter3/Cut3-1.unity
+    guid: cbc548f5590254f9c83303fd2dc61206
+  - enabled: 1
+    path: Assets/Scenes/chapter3/Cuthome-ch3.unity
+    guid: c34a48d911ae64210ae6532d58c11abb
+  - enabled: 1
+    path: Assets/Scenes/chapter3/GoHome-ch3.unity
+    guid: 979b104a9fe934d25a17a4b78dcf4318
+  - enabled: 1
+    path: Assets/Scenes/chapter3/House-ch3.unity
+    guid: dfb10b3ccc801492eb45113d99c13f98
+  - enabled: 1
+    path: Assets/Scenes/chapter3/School-ch3.unity
+    guid: ecec4f9af07044350a939ef60470ee83
+  - enabled: 1
+    path: Assets/Scenes/chapter4/BadEnd.unity
+    guid: 014f5f4fc1d304c158016b1cfa364fd4
   - enabled: 1
     path: Assets/Scenes/chapter4/Chapter4.unity
     guid: cbf0c70c3040e41d7ab001837cfdb8b9
   - enabled: 1
     path: Assets/Scenes/chapter4/Cut4-1.unity
     guid: fe8a1aa3cc35e42dab8ba0490bc4eb47
+  - enabled: 1
+    path: Assets/Scenes/chapter4/Cut4-2.unity
+    guid: da48fc4a802ac4367a9659270418d73a
+  - enabled: 1
+    path: Assets/Scenes/chapter4/End.unity
+    guid: 0e806ac63385b49ecb063fe2470f7b14
   - enabled: 1
     path: Assets/Scenes/chapter4/Escape_1.unity
     guid: 8e5efe8f8da724c44867039b60a8f2a3
@@ -87,6 +114,9 @@ EditorBuildSettings:
     path: Assets/Scenes/chapter4/Escape_4.unity
     guid: e659e496fc02d20429ebc28f87bec4c0
   - enabled: 1
-    path: Assets/Scenes/chapter4/Cut4-2.unity
-    guid: da48fc4a802ac4367a9659270418d73a
+    path: Assets/Scenes/chapter4/GoodEnd.unity
+    guid: 8b845ceaff1734f35b7e05499bc93352
+  - enabled: 1
+    path: Assets/Scenes/chapter4/GoodEnd2.unity
+    guid: 8f8108862dbbe4e00a642b4da9f335e0
   m_configObjects: {}
