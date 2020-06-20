@@ -42,21 +42,24 @@ EditorBuildSettings:
     path: Assets/Scenes/chapter1/House 1.unity
     guid: 1f4c7b9817e074b839a2b219aa239cc4
   - enabled: 1
-    path: Assets/Scenes/chapter3/Chapter3.unity
+    path: Assets/Scenes/chapter4/Chapter3.unity
     guid: cbf0c70c3040e41d7ab001837cfdb8b9
   - enabled: 1
-    path: Assets/Scenes/chapter3/Cut3-1.unity
+    path: Assets/Scenes/chapter4/Cut3-1.unity
     guid: fe8a1aa3cc35e42dab8ba0490bc4eb47
   - enabled: 1
-    path: Assets/Scenes/chapter3/Escape_1.unity
+    path: Assets/Scenes/chapter4/Escape_1.unity
     guid: 8e5efe8f8da724c44867039b60a8f2a3
   - enabled: 1
-    path: Assets/Scenes/chapter3/Escape_2.unity
+    path: Assets/Scenes/chapter4/Escape_2.unity
     guid: eb38aa29203191645bd80586d89a6399
   - enabled: 1
-    path: Assets/Scenes/chapter3/Escape_3.unity
+    path: Assets/Scenes/chapter4/Escape_3.unity
     guid: 24f6b02bf1865d4489ee795509c00700
   - enabled: 1
-    path: Assets/Scenes/chapter3/Escape_4.unity
+    path: Assets/Scenes/chapter4/Escape_4.unity
     guid: e659e496fc02d20429ebc28f87bec4c0
+  - enabled: 1
+    path: Assets/Scenes/chapter4/Cut3-2.unity
+    guid: da48fc4a802ac4367a9659270418d73a
   m_configObjects: {}

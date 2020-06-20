@@ -63,7 +63,6 @@ public class startdicut : MonoBehaviour
                 else
                 {
                     Dialog.text = "";
-                    //fade.SetTrigger("fade");
                     dialognext.gameObject.SetActive(true);
                     Destroy(gameObject);
 
