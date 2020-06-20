@@ -991,7 +991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   director: {fileID: 572042569}
-  Scene: school
+  Scene: GoHome-ch3
 --- !u!320 &572042569
 PlayableDirector:
   m_ObjectHideFlags: 0

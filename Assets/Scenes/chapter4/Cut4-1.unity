@@ -237,7 +237,7 @@ PrefabInstance:
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.data[1]
-      value: "\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E2B\u0E32\u0E22\u0E44\u0E1B\u0E41\u0E25\u0E49\u0E27?"
+      value: "B \u0E2B\u0E32\u0E22\u0E44\u0E1B\u0E41\u0E25\u0E49\u0E27?"
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
@@ -581,7 +581,7 @@ PrefabInstance:
         type: 3}
       propertyPath: me
       value: 
-      objectReference: {fileID: 359383498}
+      objectReference: {fileID: 2123168203}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: bgme
@@ -1361,7 +1361,7 @@ PrefabInstance:
         type: 3}
       propertyPath: me
       value: 
-      objectReference: {fileID: 359383498}
+      objectReference: {fileID: 1415045948}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: bgme
@@ -1622,13 +1622,13 @@ PrefabInstance:
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: me
       value: 
-      objectReference: {fileID: 359383498}
+      objectReference: {fileID: 2123168203}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: bgme
@@ -1669,20 +1669,20 @@ PrefabInstance:
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.data[1]
+      value: "\u0E08\u0E33\u0E44\u0E14\u0E49\u0E2B\u0E23\u0E37\u0E2D\u0E40\u0E1B\u0E25\u0E48\u0E32\u0E27\u0E48\u0E32\u0E40\u0E18\u0E2D
+        \u0E2B \u0E25\u0E31 \u0E1A \u0E44\u0E1B\u0E15\u0E2D\u0E19\u0E44\u0E2B\u0E19?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
+        type: 3}
+      propertyPath: sentence.Array.data[2]
       value: "\u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32\u0E17\u0E33\u0E01\u0E32\u0E23
         \u0E2B \u0E25 \u0E2D \u0E01 \u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C\u0E43\u0E2B\u0E49\u0E25\u0E38\u0E48\u0E21\u0E2B\u0E25\u0E07\u0E43\u0E19\u0E04\u0E27\u0E32\u0E21\u0E1D\u0E31\u0E19"
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
-      propertyPath: sentence.Array.data[2]
+      propertyPath: sentence.Array.data[3]
       value: "\u0E42\u0E14\u0E22\u0E01\u0E32\u0E23\u0E41\u0E25\u0E01\u0E04\u0E27\u0E32\u0E21\u0E1B\u0E23\u0E32\u0E16\u0E19\u0E32\u0E01\u0E31\u0E1A
         \u0E27\u0E34 \u0E0D \u0E0D \u0E32 \u0E13 \u0E40\u0E18\u0E2D\u0E22\u0E31\u0E07\u0E44\u0E07\u0E25\u0E48\u0E30"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
-        type: 3}
-      propertyPath: sentence.Array.data[3]
-      value: "\u0E1E\u0E25\u0E31\u0E07\u0E40\u0E2A\u0E01\u0E04\u0E19\u0E43\u0E2B\u0E49\u0E2B\u0E32\u0E22\u0E44\u0E1B\u0E44\u0E14\u0E49
-        \u0E21\u0E31\u0E19\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E01\u0E31\u0E1A\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E19\u0E04\u0E27\u0E32\u0E21\u0E1D\u0E31\u0E19\u0E40\u0E25\u0E22"
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
@@ -1801,7 +1801,7 @@ PrefabInstance:
         type: 3}
       propertyPath: other
       value: 
-      objectReference: {fileID: 359383498}
+      objectReference: {fileID: 2123168203}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: bgother
@@ -2266,7 +2266,7 @@ PrefabInstance:
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.data[0]
-      value: "\u0E2B\u0E37\u0E21?"
+      value: "\u0E2B\u0E37\u0E2D? \u0E40\u0E2A\u0E35\u0E22\u0E07\u0E43\u0E04\u0E23\u0E19\u0E48\u0E30?"
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
@@ -2397,7 +2397,7 @@ PrefabInstance:
         type: 3}
       propertyPath: me
       value: 
-      objectReference: {fileID: 359383498}
+      objectReference: {fileID: 2123168203}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: bgme
@@ -2880,7 +2880,7 @@ PrefabInstance:
         type: 3}
       propertyPath: other
       value: 
-      objectReference: {fileID: 359383498}
+      objectReference: {fileID: 2123168203}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: bgother
@@ -2904,12 +2904,12 @@ PrefabInstance:
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.data[0]
-      value: "\u0E2B\u0E32??"
+      value: "\u0E2B\u0E21\u0E32\u0E22\u0E04\u0E27\u0E32\u0E21\u0E27\u0E48\u0E32\u0E22\u0E31\u0E07\u0E44\u0E07??"
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.data[1]
-      value: "\u0E2B\u0E21\u0E32\u0E22\u0E04\u0E27\u0E32\u0E21\u0E27\u0E48\u0E32\u0E22\u0E31\u0E07\u0E44\u0E07??"
+      value: "\u0E19\u0E31\u0E48\u0E19\u0E43\u0E04\u0E23\u0E19\u0E48\u0E30 \u0E2D\u0E2D\u0E01\u0E21\u0E32\u0E40\u0E14\u0E35\u0E4B\u0E22\u0E27\u0E19\u0E35\u0E49\u0E19\u0E30!!"
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
@@ -3041,7 +3041,7 @@ PrefabInstance:
         type: 3}
       propertyPath: me
       value: 
-      objectReference: {fileID: 359383498}
+      objectReference: {fileID: 1415045948}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: bgme
@@ -3154,7 +3154,7 @@ PrefabInstance:
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
@@ -3170,7 +3170,7 @@ PrefabInstance:
         type: 3}
       propertyPath: other
       value: 
-      objectReference: {fileID: 359383498}
+      objectReference: {fileID: 2123168203}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: bgother
@@ -3194,7 +3194,7 @@ PrefabInstance:
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.data[0]
-      value: "B \u0E44\u0E21\u0E48\u0E08\u0E23\u0E34\u0E07\u0E43\u0E0A\u0E48\u0E44\u0E2B\u0E21..."
+      value: "\u0E44\u0E21\u0E48\u0E08\u0E23\u0E34\u0E07\u0E43\u0E0A\u0E48\u0E44\u0E2B\u0E21..."
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
@@ -3532,6 +3532,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -31.104004
       objectReference: {fileID: 0}
+    - target: {fileID: 7357893910771966247, guid: b1691d2e20ede4ba6adbb2e80e039427,
+        type: 3}
+      propertyPath: m_Text
+      value: ???
+      objectReference: {fileID: 0}
     - target: {fileID: 7357893910833190528, guid: b1691d2e20ede4ba6adbb2e80e039427,
         type: 3}
       propertyPath: m_Name
@@ -3642,6 +3647,17 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7357893910938788472, guid: b1691d2e20ede4ba6adbb2e80e039427,
+        type: 3}
+      propertyPath: m_Name
+      value: ???
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357893910938788478, guid: b1691d2e20ede4ba6adbb2e80e039427,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6a67db82f395943af86bc4b66d6a154b,
+        type: 3}
     - target: {fileID: 7357893910938788479, guid: b1691d2e20ede4ba6adbb2e80e039427,
         type: 3}
       propertyPath: m_AnchoredPosition.y

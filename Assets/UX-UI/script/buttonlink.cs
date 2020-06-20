@@ -8,7 +8,7 @@ public class buttonlink : MonoBehaviour
 {
 public void playgame()
     {
-        SceneManager.LoadScene("Stand");
+        SceneManager.LoadScene("Chapter1");
     }
 
 public void Quitgame(){

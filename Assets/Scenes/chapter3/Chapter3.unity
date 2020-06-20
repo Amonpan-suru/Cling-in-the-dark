@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   director: {fileID: 941137670}
-  Scene: StandCh3
+  Scene: School-ch3
 --- !u!1 &956768140
 GameObject:
   m_ObjectHideFlags: 0
