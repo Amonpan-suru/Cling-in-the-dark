@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NPCHOME : MonoBehaviour
 {
-    public Dialogue dialogue;
+    public GameObject dialogue;
 
     public float timer = 0;
 
@@ -16,14 +16,10 @@ public class NPCHOME : MonoBehaviour
 
             if (timer >= 5 && timer <=5.2f)
             {
-                TriggerDialogue();
-                
+                dialogue.gameObject.SetActive(true);
+                Destroy(gameObject);
             }
         }
     }
 
-    public void TriggerDialogue()
-    {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-    }
 }

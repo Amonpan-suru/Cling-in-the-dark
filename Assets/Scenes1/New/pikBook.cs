@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class pikBook : MonoBehaviour
 {
     public GameObject player;
+    public string Scene;
 
     private void Update()
     {
@@ -25,6 +26,6 @@ public class pikBook : MonoBehaviour
 
     void NextScence()
     {
-        SceneManager.LoadScene("Housech2");
+        SceneManager.LoadScene(Scene);
     }
 }

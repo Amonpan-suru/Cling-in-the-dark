@@ -539,12 +539,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 7357893911165590451}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1966055132 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7357893910734199514, guid: b1691d2e20ede4ba6adbb2e80e039427,
-    type: 3}
-  m_PrefabInstance: {fileID: 7357893911165590451}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5838628798608364025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -631,7 +625,7 @@ PrefabInstance:
     - target: {fileID: 5838628797880481503, guid: 6ef4d42e4a3bc451db32bc530dec28b3,
         type: 3}
       propertyPath: Scene
-      value: SchoolBook2
+      value: SchoolBook
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ef4d42e4a3bc451db32bc530dec28b3, type: 3}
@@ -756,7 +750,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: dbd0c2b16d2e24605b0497635ffbc977,
+      objectReference: {fileID: 21300000, guid: c5f802f1067374333a38bc614cd75277,
         type: 3}
     - target: {fileID: 7357893911480772382, guid: b1691d2e20ede4ba6adbb2e80e039427,
         type: 3}
@@ -776,7 +770,7 @@ PrefabInstance:
         type: 3}
       propertyPath: me
       value: 
-      objectReference: {fileID: 1966055132}
+      objectReference: {fileID: 1415045948}
     - target: {fileID: 7394579034726572080, guid: 66229b39c143c413884409153af66afd,
         type: 3}
       propertyPath: bgme
@@ -810,7 +804,7 @@ PrefabInstance:
     - target: {fileID: 7394579034726572080, guid: 66229b39c143c413884409153af66afd,
         type: 3}
       propertyPath: sentence.Array.data[0]
-      value: "\u0E43\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14\u0E40\u0E18\u0E2D\u0E01\u0E47\u0E2B\u0E32\u0E09\u0E31\u0E19\u0E40\u0E08\u0E2D~"
+      value: "\u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35\u0E22\u0E31\u0E22\u0E40\u0E14\u0E47\u0E01\u0E1B\u0E23\u0E30\u0E2B\u0E25\u0E32\u0E14"
       objectReference: {fileID: 0}
     - target: {fileID: 7394579034726572081, guid: 66229b39c143c413884409153af66afd,
         type: 3}
@@ -938,11 +932,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
-      propertyPath: sentence.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
-        type: 3}
       propertyPath: me
       value: 
       objectReference: {fileID: 1415045948}
@@ -979,14 +968,8 @@ PrefabInstance:
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.data[0]
-      value: "\u0E2E\u0E37\u0E2D\u0E2D\u0E2D\u0E2D \u0E09\u0E31\u0E19\u0E04\u0E34\u0E14\u0E27\u0E48\u0E32\u0E08\u0E30\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E40\u0E08\u0E2D
-        B \u0E2D\u0E35\u0E01\u0E41\u0E25\u0E49\u0E27"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
-        type: 3}
-      propertyPath: sentence.Array.data[1]
-      value: "\u0E09\u0E31\u0E19\u0E44\u0E21\u0E48\u0E2D\u0E22\u0E32\u0E01\u0E2D\u0E22\u0E39\u0E48\u0E17\u0E35\u0E48\u0E19\u0E35\u0E48\u0E41\u0E25\u0E49\u0E27
-        \u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19\u0E01\u0E31\u0E19\u0E40\u0E16\u0E2D\u0E30"
+      value: "\u0E27\u0E31\u0E19\u0E46\u0E40\u0E2D\u0E32\u0E41\u0E15\u0E48\u0E2D\u0E48\u0E32\u0E19\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D
+        \u0E44\u0E21\u0E48\u0E40\u0E1A\u0E37\u0E48\u0E2D\u0E23\u0E36\u0E44\u0E07"
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101637, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
