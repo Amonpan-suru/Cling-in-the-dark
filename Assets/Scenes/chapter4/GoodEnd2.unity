@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   director: {fileID: 187403968}
-  Scene: GoodEnd2
+  Scene: End
 --- !u!1 &190730075
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1292,7 +1292,7 @@ PrefabInstance:
     - target: {fileID: 2671204245934952665, guid: b1691d2e20ede4ba6adbb2e80e039427,
         type: 3}
       propertyPath: m_Name
-      value: "bg \u0E40\u0E1C\u0E32"
+      value: "bg \u0E15\u0E37\u0E48\u0E19"
       objectReference: {fileID: 0}
     - target: {fileID: 3549200418855456406, guid: b1691d2e20ede4ba6adbb2e80e039427,
         type: 3}
@@ -1549,6 +1549,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "bg\u0E19\u0E31\u0E48\u0E07"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357893911480772355, guid: b1691d2e20ede4ba6adbb2e80e039427,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357893911480772355, guid: b1691d2e20ede4ba6adbb2e80e039427,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7357893911480772355, guid: b1691d2e20ede4ba6adbb2e80e039427,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7357893911480772381, guid: b1691d2e20ede4ba6adbb2e80e039427,
         type: 3}
