@@ -32576,7 +32576,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1119264620
 Transform:
   m_ObjectHideFlags: 0
@@ -32929,7 +32929,7 @@ MonoBehaviour:
   player: {fileID: 8763723}
   player1: {fileID: 1138915911}
   fadein: {fileID: 301141811}
-  Scene: Cut3-2
+  Scene: Cut4-2
 --- !u!1 &1132029770
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,9 +12,9 @@ public class Stand : MonoBehaviour
     {
         Timer += Time.deltaTime;
 
-        if (Timer > 10f)
+        if (Timer > 4f)
         {
-            SceneManager.LoadScene("Cut1");
+            SceneManager.LoadScene("School");
         }
     }
 }

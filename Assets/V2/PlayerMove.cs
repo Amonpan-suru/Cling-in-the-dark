@@ -8,7 +8,7 @@ public class PlayerMove : MonoBehaviour
 
     private void Update()
     {
-        if (LightDecrease.getAlive)
+        if (LightDecreas.getAlive)
         {
             PlayerMove1();
         }

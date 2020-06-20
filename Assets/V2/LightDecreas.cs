@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LightDecrease : MonoBehaviour
+public class LightDecreas : MonoBehaviour
 {
     public Light Light1;
 

@@ -6,9 +6,6 @@ public class NPC : MonoBehaviour
 {
     public GameObject player;
     public Dialogue dialogue;
-    public GameObject me;
-    public GameObject other;
-    public GameObject other2;
     public float di;
     public float diback;
 
@@ -20,9 +17,6 @@ public class NPC : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
-                me.gameObject.SetActive(true);
-                other.gameObject.SetActive(false);
-                other2.gameObject.SetActive(false);
                 TriggerDialogue();
                 transform.rotation = Quaternion.Euler(0f, di, 0f);
             }
