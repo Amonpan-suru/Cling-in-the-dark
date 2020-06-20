@@ -6,12 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: d117a7f875ef94de58e62c58ea4b0909
   - enabled: 1
@@ -30,9 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/chapter1/Cut2.unity
     guid: a376ffa8488634e23927366166f7cde5
   - enabled: 1
-    path: Assets/Scenes/chapter1/School 1.unity
-    guid: a30cf213aa2324a03bcd222a19b18690
-  - enabled: 1
     path: Assets/Scenes/chapter1/House.unity
     guid: f6f9cc1b095e142d7b15794ef5de56c4
   - enabled: 1
@@ -41,6 +32,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/chapter1/House 1.unity
     guid: 1f4c7b9817e074b839a2b219aa239cc4
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/Chapter2.unity
+    guid: 7f686570f738a4a52ba9c2c6dfe36007
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/Stand 1.unity
+    guid: 4f86151a00da44786ae5393ddf09d28c
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/Cut2-1.unity
+    guid: 8c3e2726d1f874e319677d43b16232b1
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/SchoolNoBook.unity
+    guid: fb718d62df695435d84f5f118a38cc45
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/Cut2-2.unity
+    guid: 94e96fce8d21a4ecf811e99ed053d0da
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/SchoolBook.unity
+    guid: 353c26332520e3d42b5d2dd4bdecc9d1
+  - enabled: 1
+    path: Assets/Scenes/Chapter2/Housech2.unity
+    guid: dc0d42b09ad884bd089a40b88b6b47a7
+  - enabled: 1
+    path: Assets/Scenes/chapter3/Chapter3.unity
+    guid: ea024797fca674e27a2ead5839de665e
   - enabled: 1
     path: Assets/Scenes/chapter4/Chapter4.unity
     guid: cbf0c70c3040e41d7ab001837cfdb8b9

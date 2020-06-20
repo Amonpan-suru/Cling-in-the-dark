@@ -7,14 +7,14 @@ using UnityEngine.Playables;
 public class directorstop : MonoBehaviour
 {
     public PlayableDirector director;
-    public GameObject panelmain;
+    public GameObject dialog;
     public GameObject timeline;
 
     void OnPlayableDirectorStopped(PlayableDirector aDirector)
     {
         if (director == aDirector)
         {
-            panelmain.gameObject.SetActive(true);
+            dialog.gameObject.SetActive(true);
         }
             
     }

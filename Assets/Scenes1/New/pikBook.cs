@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class pikBook : MonoBehaviour
 {
     public GameObject player;
-    public string Scene;
 
     private void Update()
     {
@@ -19,9 +18,13 @@ public class pikBook : MonoBehaviour
                 
                 Destroy(gameObject);
 
-                SceneManager.LoadScene(Scene);
+                NextScence();
             }
         }
     }
- 
+
+    void NextScence()
+    {
+        SceneManager.LoadScene("Housech2");
+    }
 }

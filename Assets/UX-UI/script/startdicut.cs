@@ -24,6 +24,7 @@ public class startdicut : MonoBehaviour
 
     void Start()
     {
+        
         bgtext.gameObject.SetActive(true);
         me.gameObject.SetActive(true);
         bgme.gameObject.SetActive(true);
@@ -31,6 +32,7 @@ public class startdicut : MonoBehaviour
         bgother.gameObject.SetActive(false);
 
         SFXclick = GetComponent<AudioSource>();
+        SFXclick.Play();
         StartCoroutine(Type());
     }
 
