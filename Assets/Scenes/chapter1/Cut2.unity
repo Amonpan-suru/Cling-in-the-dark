@@ -760,7 +760,6 @@ GameObject:
   m_Component:
   - component: {fileID: 343650482}
   - component: {fileID: 343650481}
-  - component: {fileID: 343650480}
   - component: {fileID: 343650479}
   m_Layer: 0
   m_Name: dialog maneger10
@@ -791,19 +790,6 @@ MonoBehaviour:
   - "\u0E09\u0E31\u0E19\u0E08\u0E30\u0E01\u0E25\u0E31\u0E1A\u0E1A\u0E49\u0E32\u0E19\u0E41\u0E25\u0E49\u0E27!!"
   dialognext: {fileID: 761456421}
   bgtext: {fileID: 1877075114}
---- !u!114 &343650480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343650478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf4bcc4f120641d0a486d799ba210a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeline: {fileID: 0}
 --- !u!82 &343650481
 AudioSource:
   m_ObjectHideFlags: 0
@@ -999,7 +985,6 @@ GameObject:
   m_Component:
   - component: {fileID: 378128819}
   - component: {fileID: 378128818}
-  - component: {fileID: 378128817}
   - component: {fileID: 378128816}
   m_Layer: 0
   m_Name: dialog maneger9
@@ -1031,19 +1016,6 @@ MonoBehaviour:
   - "\u0E09\u0E31\u0E19\u0E2D\u0E38\u0E2A\u0E48\u0E32\u0E2B\u0E4C\u0E2D\u0E22\u0E32\u0E01\u0E17\u0E33\u0E04\u0E27\u0E32\u0E21\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E19\u0E30\u0E40\u0E19\u0E35\u0E48\u0E22 "
   dialognext: {fileID: 343650478}
   bgtext: {fileID: 1877075114}
---- !u!114 &378128817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378128815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf4bcc4f120641d0a486d799ba210a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeline: {fileID: 0}
 --- !u!82 &378128818
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1323,7 +1295,6 @@ GameObject:
   m_Component:
   - component: {fileID: 466045651}
   - component: {fileID: 466045650}
-  - component: {fileID: 466045649}
   - component: {fileID: 466045648}
   m_Layer: 0
   m_Name: dialog maneger7
@@ -1358,19 +1329,6 @@ MonoBehaviour:
   - "\u0E40\u0E14\u0E35\u0E4B\u0E22\u0E27\u0E01\u0E47\u0E44\u0E21\u0E48\u0E21\u0E35\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E19\u0E04\u0E1A\u0E2B\u0E23\u0E2D\u0E01"
   dialognext: {fileID: 1837094691}
   bgtext: {fileID: 1877075114}
---- !u!114 &466045649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466045647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf4bcc4f120641d0a486d799ba210a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeline: {fileID: 0}
 --- !u!82 &466045650
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1738,13 +1696,14 @@ GameObject:
   - component: {fileID: 574398862}
   - component: {fileID: 574398860}
   - component: {fileID: 574398861}
+  - component: {fileID: 574398863}
   m_Layer: 0
   m_Name: Timeline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!320 &574398860
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -1755,7 +1714,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: a89aa4e0bbe1540b089b01b01f4ac6cc, type: 2}
-  m_InitialState: 0
+  m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -1796,6 +1755,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &574398863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574398859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f04ec1eeec74cccba3d2567186525f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Close: {fileID: 1877075114}
+  Open: {fileID: 1415045948}
 --- !u!1 &639888352
 GameObject:
   m_ObjectHideFlags: 0
@@ -3058,6 +3031,133 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1692734064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1692734066}
+  - component: {fileID: 1692734065}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1692734065
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692734064}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 491fc8332adfd40779e57634f57a0c48, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1692734066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692734064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 80.74006, y: 62.739998, z: -114.090004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1697829325
 GameObject:
   m_ObjectHideFlags: 0
@@ -3174,7 +3274,7 @@ MonoBehaviour:
   me: {fileID: 376533862}
   bgme: {fileID: 1415045948}
   other: {fileID: 1330310771}
-  bgother: {fileID: 1415045948}
+  bgother: {fileID: 447626758}
   Dialog: {fileID: 1384379548}
   sentence:
   - "\u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E17\u0E35\u0E48\u0E2A\u0E27\u0E22\u0E14\u0E35\u0E19\u0E30"
@@ -3385,7 +3485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1796175565
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3456,7 +3556,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1837094695}
   - component: {fileID: 1837094694}
-  - component: {fileID: 1837094693}
   - component: {fileID: 1837094692}
   m_Layer: 0
   m_Name: dialog maneger8
@@ -3488,19 +3587,6 @@ MonoBehaviour:
     \u0E16\u0E2D\u0E19\u0E04\u0E33\u0E1E\u0E39\u0E14\u0E19\u0E31\u0E48\u0E19\u0E40\u0E14\u0E35\u0E4B\u0E22\u0E27\u0E19\u0E35\u0E49\u0E19\u0E30"
   dialognext: {fileID: 378128815}
   bgtext: {fileID: 1877075114}
---- !u!114 &1837094693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1837094691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf4bcc4f120641d0a486d799ba210a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeline: {fileID: 0}
 --- !u!82 &1837094694
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3987,9 +4073,9 @@ MonoBehaviour:
     \u0E04\u0E38\u0E13\u0E04\u0E23\u0E39"
   typespeed: 0.05
   fade: {fileID: 837088276}
-  dialognext: {fileID: 1415045948}
+  dialognext: {fileID: 574398859}
   timeline: {fileID: 574398859}
-  bgtext: {fileID: 1415045948}
+  bgtext: {fileID: 1877075114}
 --- !u!4 &2040928875
 Transform:
   m_ObjectHideFlags: 0
