@@ -3157,7 +3157,7 @@ PrefabInstance:
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
       propertyPath: sentence.Array.data[1]
-      value: "\u0E41\u0E04\u0E48\u0E2D\u0E18\u0E34\u0E10\u0E32\u0E13\u0E01\u0E31\u0E1A\u0E09\u0E31\u0E19"
+      value: "\u0E41\u0E04\u0E48\u0E2D\u0E18\u0E34\u0E29\u0E10\u0E32\u0E19\u0E01\u0E31\u0E1A\u0E09\u0E31\u0E19"
       objectReference: {fileID: 0}
     - target: {fileID: 8645617907292101635, guid: 14ae7ce36de4b45f69e70e92b5dbf00d,
         type: 3}
