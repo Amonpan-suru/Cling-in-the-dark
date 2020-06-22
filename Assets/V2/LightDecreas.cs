@@ -35,6 +35,5 @@ public class LightDecreas : MonoBehaviour
         Alive = true;
         SceneManager.LoadScene(Scene);
         Time.timeScale = 1;
-
     }
 }
