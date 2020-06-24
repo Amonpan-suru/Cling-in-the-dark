@@ -9,19 +9,19 @@ public class FloorMarker : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.name == "Floor 1")
+        if (other.name == "floor1")
         {
             floormarker.text = "Floor 1";
         }
-        if (other.name == "Floor 2")
+        if (other.name == "floor2")
         {
             floormarker.text = "Floor 2";
         }
-        if (other.name == "Floor 3")
+        if (other.name == "floor3")
         {
             floormarker.text = "Floor 3";
         }
-        if (other.name == "Floor 4")
+        if (other.name == "floor4")
         {
             floormarker.text = "UpperFloor";
         }
