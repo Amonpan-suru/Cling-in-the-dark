@@ -33,7 +33,7 @@ public class LightDecreas : MonoBehaviour
     public void Reload()
     {
         Alive = true;
-        SceneManager.LoadScene(Scene);
+        SceneManager.LoadScene("Loop");
         Time.timeScale = 1;
     }
 }
