@@ -16,21 +16,22 @@ public class control : MonoBehaviour
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
             anime.SetBool("Walk", true);
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                anime.SetBool("Run", true);
+            }
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                anime.SetBool("Run", false);
+            }
         }
         else
         {
             anime.SetBool("Walk", false);
+            anime.SetBool("Run", false);
         }
        
         
-        
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            anime.SetBool("Run", true);
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            anime.SetBool("Run", false);
-        }
+
     }
 }
