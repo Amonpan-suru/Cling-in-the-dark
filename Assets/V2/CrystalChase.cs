@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CrystalChase : MonoBehaviour
 {
-    public float speed = 2.0f;
+    public float speed = 3.0f;
 
     private void Update()
     {
