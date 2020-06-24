@@ -31976,6 +31976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Light1: {fileID: 1608150535}
+  Scene: Loop 1
 --- !u!114 &993899231
 MonoBehaviour:
   m_ObjectHideFlags: 0
