@@ -8,20 +8,20 @@ public class PauseMenuGame : MonoBehaviour
 
     public GameObject panel;
     public string Scene;
-    int num = 1;
+    int num = 0;
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            
+            num++;
             if (num % 2 == 1)
             {
                 PauseGame();
-                num++;
+                
             }
             else
             {
-                num++;
+                
                 panel.gameObject.SetActive(false);
                 Time.timeScale = 1;
             }

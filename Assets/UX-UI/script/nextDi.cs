@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Playables;
+using System;
 
 public class nextDi : MonoBehaviour
 {
     public PlayableDirector director;
     public GameObject dialog;
-    
+
+   
 
     void OnPlayableDirectorStopped(PlayableDirector aDirector)
     {
@@ -29,5 +31,5 @@ public class nextDi : MonoBehaviour
         director.stopped -= OnPlayableDirectorStopped;
     }
 
-
+    
 }

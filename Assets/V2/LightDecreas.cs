@@ -8,11 +8,11 @@ public class LightDecreas : MonoBehaviour
 {
     public Light Light1;
     public string Scene;
-    //public GameObject Scene; 
+     
 
     public static bool Alive = true;
 
-    public static bool getAlive { get { return Alive; } }
+   public static bool getAlive { get { return Alive; } }
 
     private void OnTriggerEnter( Collider collision )
     {
@@ -24,17 +24,18 @@ public class LightDecreas : MonoBehaviour
         {
             Light1.intensity -= 10.0f;
         }
-        if ( Light1.intensity == 0.0f )
+        if ( Light1.intensity <= 0.0f )
         {
-            Alive = false;
+            SceneManager.LoadScene(Scene);
+            //Alive = false;
             //Reload();
-            Invoke("Reload",2.0f);
+            //Invoke("Reload",2.0f);
         }       
     }
-    public void Reload()
-    {
-        Alive = true;
-        SceneManager.LoadScene(Scene);
-        Time.timeScale = 1;
-    }
+   // public void Reload()
+    //{
+      //  Alive = true;
+      //  SceneManager.LoadScene(Scene);
+      //  Time.timeScale = 1;
+   // }
 }

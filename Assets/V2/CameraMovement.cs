@@ -8,10 +8,10 @@ public class CameraMovement : MonoBehaviour
 
     void Update()
     {
-        if( LightDecreas.getAlive )
-        {
+        //if( LightDecreas.getAlive )
+       // {
             CameraMovement1();
-        }
+       // }
     }
 
     void CameraMovement1()
